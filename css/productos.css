@@ -1,0 +1,367 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 50px 300px;
+    grid-template-rows: 200px 75px;
+
+}
+
+body{
+    font-family: 'Open Sans', 
+    sans-serif;
+}
+
+
+.marca{
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 10px;
+    font-size: 12px;
+}
+
+.marca h1{
+    padding-right: 4px;
+    font-family: Georgia;
+}
+
+#imagen_logo {
+    width: 160px;
+    height: 45px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-top: 2px;
+}
+
+
+.marca {
+    margin: auto;
+    background-color: #ffa837;
+    clear: both;
+    display: block;
+    content: '';
+
+}
+
+.marca h1 {
+
+    font-size: 70px;
+    line-height: 230px;
+
+}
+
+.marca h1 i {
+
+    font-weight: bold;
+
+}
+
+.navegador{
+    float: left;
+    width: 100%;
+    background-color: rgb(255, 152, 93);
+    color: white;
+    transition: .3s ease all;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+
+}
+
+.navegador .wrap {
+    position: relative;
+    left: -608px;
+    transition: 0.4s ease all;
+
+}
+
+
+nav{
+    font-size: 12px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    transition: 0.2 ease all;
+}
+
+
+body nav ul li a:hover{
+    color:rgb(255, 152, 93);
+    background-color:rgb(0, 0, 0);
+    transition: all 0.5s ease 0s;
+}
+
+body.nav_fixed .navegador{
+
+    position: fixed;
+    position: 0;
+    z-index:1000;
+    top:0;
+    width: 100%;
+
+}
+
+body.nav_fixed .navegador .wrap{
+
+    left: 0;
+
+}
+
+html{
+    background-color: rgb(250, 248, 242, 0.5);
+}
+
+.contenedor .contenedor_ventas .producto1{
+    display: block;
+    align-items: center;
+    text-align: center;
+    border:5px solid  #ffa837;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+
+.parrafo1{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titulo{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.producto_titulo1{
+    margin-top: 20px;
+}
+
+.producto1_buton{
+    background:  rgb(212, 107, 9);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.07em;
+    margin-right: 1.25em;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.producto1_buton:hover {
+
+    background:rgba(4, 158, 11, 0.753);
+    color: black;
+}
+
+
+
+.margen1{
+    background: url(../IMAGENES/mouse..jpg) ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    background-position:center center;
+
+}
+
+.margen2{
+    background: url(https://phantom.pe/pub/media/catalog/product/cache/71a032b60710d907b279b6023a79a12b/_/r/_razer_blackwidow_v3_tenkeyless_chroma_black_1.jpg)  ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    background-position:center center;
+    
+}
+
+.margen3{
+    background: url(https://helprint.cl/wp-content/uploads/2020/07/PC-Gamer.png) ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 400x;
+    height: 400px;
+    background-position:center center;
+
+}
+
+.margen4{
+    background: url(https://images-na.ssl-images-amazon.com/images/I/61yEI8OjDKL._AC_SY450_.jpg) ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    background-position:center center;
+
+}
+
+.margen5{
+    background: url(../IMAGENES/tekken.png)  ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 382px;
+    height: 200px;
+    background-position:center center;
+    
+}
+
+.margen6{
+    background: url(../IMAGENES/kof.png)  ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 382px;
+    height: 200px;
+    background-position:center center;
+    
+} 
+
+.margen7{
+    background: url(../IMAGENES/Elden.png)  ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 382px;
+    height: 200px;
+    background-position:center center;
+    
+} 
+
+.margen8{
+    background: url(../IMAGENES/wow.png)  ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 382px;
+    height: 200px;
+    background-position:center center;
+    
+} 
+
+.contenedor_ventasuwu{
+    display: flex;
+    
+}
+
+.producto_titulo2, 
+.descrip{
+    margin: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.uwu{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.ewe{
+    
+    background:  rgb(212, 107, 9);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.07em;
+    margin-right: 1.25em;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 170px;
+}
+
+.ewe:hover {
+
+    background:rgba(4, 158, 11, 0.753);
+    color: black;
+}
+
+.contenedor_ventas2{
+    border:5px solid  #ffa837;
+    margin-top: 30px;
+    margin-left: 3px;
+    margin-bottom: 30px;
+}
+
+.titulo h2{
+
+    margin-left: 650px;
+    margin-right: 650px;
+    border: 1px solid #ffa837;
+    font-size: 50px;
+    background-color: orange;
+}
+.ventas_texto{
+    margin-top: 20px;
+    font-size: 50px;
+
+}
+
+
+.text__busqueda input {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+    width:400px;
+    height: 20px;
+
+}
+
+
+footer {
+
+    margin-top: 100px;
+    background: #ffa837;
+    padding: 20px;
+    font-family: 'Lucida Sans';
+}
+
+footer h3{
+
+    color: #000000;
+
+}

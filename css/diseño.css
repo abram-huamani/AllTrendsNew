@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 50px 300px;
+    grid-template-rows: 200px 75px;
+
+}
+
+body{
+    font-family: 'Open Sans', 
+    sans-serif;
+}
+
+
+.marca{
+    text-align: center;
+    color: white;
+    padding: 15px 10px;
+    font-size: 12px;
+}
+
+.marca h1{
+    padding-right: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#imagen_logo {
+    width: 160px;
+    height: 45px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-top: 2px;
+}
+
+
+.marca {
+    margin: auto;
+    background-color: #ffa837;
+    clear: both;
+    display: block;
+    content: '';
+   
+}
+
+.marca h1 {
+
+    font-size: 70px;
+    line-height: 230px;
+
+}
+
+.marca h1 i {
+
+    font-weight: bold;
+
+}
+
+.navegador{
+    float: left;
+    width: 100%;
+    background-color: rgb(255, 152, 93);
+    color: white;
+    transition: .3s ease all;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+
+}
+
+.navegador .wrap {
+    position: relative;
+    left: -608px;
+    transition: 0.4s ease all;
+
+}
+
+
+nav{
+    font-size: 12px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    transition: 0.2 ease all;
+}
+
+
+body nav ul li a:hover{
+    color:rgb(255, 152, 93);
+    background-color:rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+}
+
+body.nav_fixed .navegador{
+
+    position: fixed;
+    position: 0;
+    z-index:1000;
+    top:0;
+    width: 100%;
+    
+}
+
+body.nav_fixed .navegador .wrap{
+
+    left: 0;
+    
+}
+
+html{
+    background-color: rgb(250, 248, 242, 0.5);
+}
+
+.plana{
+
+    text-align: center;
+}
+
+.container{ 
+width: 90%;
+max-width: 1000px;
+margin: 0.8em auto;
+gap: 1.6em;
+background-color: rgb(250, 248, 242);
+text-align: justify;
+font-size: 20px;
+}
+
+.boletin {
+    background-color: #ffa837 ;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top:10px;
+    margin-top: 20px;
+}
+
+.cajas {
+    margin-top: 10px;
+    width: 330px;
+    color: white;
+    display: grid;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #ffa837;
+    text-align: justify;
+
+}
+
+.bolecajas{
+
+    float:right;
+
+}
+
+.informes{
+
+    float:right;
+
+}
+
+.galeriafotos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 30px;
+    display: grid;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-top: 20px;
+    background-color: rgb(231, 228, 220);
+    
+  
+}
+#iman{
+    margin-left: 20px;
+}
+
+aside {
+    padding-top: 30px;
+    padding-right: 30px;
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 30px;
+    display: grid;
+    padding-left: 20px; 
+    margin-top: 20px;
+    background-color: rgb(231, 228, 220);
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+aside h3{
+
+    font-size: 30px ;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+aside .videito{
+
+    text-align: center;
+
+}
+
+
+footer {
+    background: #ffa837;
+    padding: 20px;
+    font-family: 'Lucida Sans';
+}
+
+footer h3{
+
+    padding-top: 10000000px;
+    color: #000000;
+
+}
+
+
+.text__busqueda input {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+    width:400px;
+    height: 20px;
+
+}
